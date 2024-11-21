@@ -1,0 +1,11 @@
+{
+  "development": {
+    "mongoUri": "mongodb+srv://joonhai:1234@osspentire.iuuki.mongodb.net/nodeproject?retryWrites=true&w=majority&appName=osspEntire"
+  },
+  "test": {
+    "mongoUri": "mongodb+srv://joonhai:1234@osspentire.iuuki.mongodb.net/database_test?retryWrites=true&w=majority&appName=osspEntire"
+  },
+  "production": {
+    "mongoUri": "mongodb+srv://joonhai:1234@osspentire.iuuki.mongodb.net/database_production?retryWrites=true&w=majority&appName=osspEntire"
+  }
+}

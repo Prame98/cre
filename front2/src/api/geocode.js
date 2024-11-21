@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // 주소를 위도와 경도로 변환하는 함수
 export const geocodeAddress = async (address) => {
-    const API_KEY = 'YOUR_KAKAO_API_KEY';
+    const API_KEY = '3364ed8ba441324a6a719fd775dba7af';
     const url = `https://dapi.kakao.com/v2/local/search/address.json?query=${encodeURIComponent(address)}`;
     
     try {
